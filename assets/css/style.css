@@ -29,6 +29,10 @@ header{
     
 }
 
+header ul{
+    margin: 15px;
+}
+
 .juan ul{
     display: flex;
     gap: 22px;
@@ -38,10 +42,11 @@ header{
 }
 
 .hulk{
-    width: 50px;
-    height: 50px;
-    border-radius: 20% 20%;
-    background-size: cover;
-    background-color: #1e0bf7;
+    max-width: 400px;
+
 }
+    .hulk img{
+        width: 35%;
+        height: auto;
+    }
 
